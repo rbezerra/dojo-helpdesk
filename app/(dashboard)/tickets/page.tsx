@@ -18,7 +18,7 @@ export default function Tickets() {
           </p>
         </div>
         <Link href="/tickets/create" className="ml-auto">
-          <button className="btn-primary">New Ticket</button>
+          <button className="btn-primary">New Ticket *</button>
         </Link>
       </nav>
       <Suspense fallback={<Loading />}>drive
